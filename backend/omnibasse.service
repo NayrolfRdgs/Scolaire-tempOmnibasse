@@ -1,0 +1,31 @@
+[Unit]
+Description=Omnibasse Backend (FastAPI/uvicorn)
+After=network.target sound.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/omnibasse/backend
+
+# Utilise le virtualenv créé par install_pi.sh
+ExecStart=/home/pi/omnibasse/backend/.venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000
+
+# Redémarrage automatique en cas d'erreur
+Restart=always
+RestartSec=5
+
+# Variables d'environnement
+EnvironmentFile=-/home/pi/omnibasse/backend/.env
+
+# Logs
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=omnibasse
+
+# Sécurité minimale
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
