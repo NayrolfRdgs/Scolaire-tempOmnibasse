@@ -1,6 +1,6 @@
-# 🎸 Omnibasse
+# Scolaire-tempOmnibasse
 
-> **Projet scolaire** — Lycée, Olympiades de sciences de l'ingénieur 2027 (thème « L'ingénierie au service de l'art »). Dépôt privé, usage pédagogique interne.
+> **Projet scolaire** — Omnibasse, instrument tactile capacitif. Lycée, Olympiades de sciences de l'ingénieur 2027 (thème « L'ingénierie au service de l'art »). Dépôt privé, usage pédagogique interne.
 
 Instrument tactile capacitif à 4 cordes × 6 sections — backend Python + frontend React de test + hardware Raspberry Pi.
 
