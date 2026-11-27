@@ -29,28 +29,16 @@ npm run dev
 
 Ouvrir http://localhost:5173. Les raccourcis `start_dev.bat` et `start_frontend.bat` font la même chose.
 
-Aucun hardware n'est nécessaire pour développer : `MockHardware` et la grille web simulent la surface. Installation complète, Raspberry Pi et dépannage : [docs/installation.md](docs/installation.md).
+Aucun hardware n'est nécessaire pour développer : `MockHardware` et la grille web simulent la surface. Voir le [guide technique](docs/technique/guide_technique.md).
 
 ---
 
 ## Documentation
 
-Le détail est réparti dans [`docs/`](docs/README.md) :
+Tout est dans [`docs/`](docs/README.md), rangé en deux dossiers :
 
-| Besoin | Document |
-| --- | --- |
-| Installer / lancer | [installation.md](docs/installation.md) |
-| Comprendre l'architecture | [architecture.md](docs/architecture.md) |
-| Utiliser l'API | [api.md](docs/api.md) |
-| Câbler le matériel | [hardware.md](docs/hardware.md) |
-| Utiliser la page web | [interface_web.md](docs/interface_web.md) |
-| Résoudre un problème | [depannage.md](docs/depannage.md) |
-| Cahier des charges OSI | [cahier_des_charges.md](docs/cahier_des_charges.md) |
-| Simulations Simulink / Python | [simulations.md](docs/simulations.md) |
-| Protocoles de mesure | [protocole_mesures.md](docs/protocole_mesures.md) |
-| Choix et licences | [decisions.md](docs/decisions.md) |
-| Ce qui reste à créer | [manquant_logiciel.md](docs/manquant_logiciel.md) |
-| Répartition et calendrier | [repartition_taches.md](docs/repartition_taches.md) |
+- [`technique/`](docs/technique/guide_technique.md) — installation, architecture, API, câblage, interface web, dépannage (1 seul fichier).
+- [`projet/`](docs/projet/cahier_des_charges.md) — cahier des charges, simulations, protocoles de mesure, décisions, écarts logiciels, répartition des tâches.
 
 ---
 
@@ -60,7 +48,7 @@ Le détail est réparti dans [`docs/`](docs/README.md) :
 .
 ├── backend/        API FastAPI, moteur tactile, audio, drivers I2C
 ├── frontend/       Interface React/Vite de test
-├── docs/           Toute la documentation du projet
+├── docs/           Documentation (projet/ et technique/)
 ├── simulations/    Scripts Python de simulation et de relevé
 └── start_*.bat     Raccourcis Windows
 ```
@@ -69,4 +57,4 @@ Le détail est réparti dans [`docs/`](docs/README.md) :
 
 ## Licence
 
-Projet pédagogique — usage interne lycée. Les bibliothèques utilisées et leurs licences sont justifiées dans [docs/decisions.md](docs/decisions.md).
+Projet pédagogique — usage interne lycée. Les bibliothèques utilisées et leurs licences sont justifiées dans [docs/projet/decisions.md](docs/projet/decisions.md).

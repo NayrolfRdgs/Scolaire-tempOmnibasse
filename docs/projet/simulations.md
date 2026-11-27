@@ -1,6 +1,6 @@
 # Omnibasse — simulations, logiciels et mode d'emploi pas à pas
 
-> Document déplacé dans `docs/`. Index : [docs/README.md](README.md).
+> Index : [docs/README.md](../README.md).
 
 Ce guide reprend les simulations annoncées dans `Omnibasse — doc projet et prompt de démarrage Antigravity.md`, les adapte au code actuellement présent dans `backend/`, et explique comment les construire et les exploiter.
 
