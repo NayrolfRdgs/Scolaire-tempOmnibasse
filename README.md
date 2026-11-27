@@ -50,6 +50,7 @@ Le détail est réparti dans [`docs/`](docs/README.md) :
 | Protocoles de mesure | [protocole_mesures.md](docs/protocole_mesures.md) |
 | Choix et licences | [decisions.md](docs/decisions.md) |
 | Ce qui reste à créer | [manquant_logiciel.md](docs/manquant_logiciel.md) |
+| Répartition et calendrier | [repartition_taches.md](docs/repartition_taches.md) |
 
 ---
 

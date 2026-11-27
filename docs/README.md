@@ -12,6 +12,7 @@ Bienvenue dans le dossier de documentation. Le README à la racine est volontair
 | [hardware.md](hardware.md) | Câblage MPR121/ADC, mapping des canaux, calibration |
 | [interface_web.md](interface_web.md) | Onglets de la page de test et fonctionnalités prévues |
 | [depannage.md](depannage.md) | Problèmes courants et vérifications |
+| [repartition_taches.md](repartition_taches.md) | Historique, rôles, calendrier et charge de travail |
 
 ## Projet OSI 2027
 
