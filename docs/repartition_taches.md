@@ -63,7 +63,7 @@ Tout ce qui est listé dans [manquant_logiciel.md](manquant_logiciel.md), en par
 | **2 lycéens** | Toi = chef de projet + back/mesures ; Dev 1 = front + matériel + dossier (alterner les semaines) |
 | **3 lycéens** | Toi = intégration + back ; Dev 1 = front ; Dev 2 = matériel + dossier |
 | **4 lycéens** | Rôles du tableau ci-dessus, avec toi sur l'intégration |
-| **5 lycéens** | Ajouter un « documentation / soutenance » distinct du scientistifique |
+| **5 lycéens** | Ajouter un « documentation / soutenance » distinct du scientifique |
 
 ---
 
